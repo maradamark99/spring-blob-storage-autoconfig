@@ -1,0 +1,4 @@
+com.maradamark99.blobstorage.minio.MinioPropertiesAutoConfiguration
+com.maradamark99.blobstorage.minio.MinioClientAutoConfiguration
+com.maradamark99.blobstorage.StorageClientAutoConfiguration
+
