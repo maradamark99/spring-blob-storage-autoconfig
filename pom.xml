@@ -10,6 +10,13 @@
         <maven.compiler.source>16</maven.compiler.source>
         <maven.compiler.target>16</maven.compiler.target>
     </properties>
+    <distributionManagement>
+      <repository>
+        <id>github</id>
+        <name>spring-blob-storage-autoconfig</name>
+        <url>https://maven.pkg.github.com/maradamark99/spring-blob-storage-autoconfig</url>
+      </repository>
+    </distributionManagement>
     <dependencies>
         <dependency>
             <groupId>io.minio</groupId>
