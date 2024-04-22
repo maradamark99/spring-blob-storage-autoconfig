@@ -14,7 +14,7 @@
       <repository>
         <id>github</id>
         <name>spring-blob-storage-autoconfig</name>
-        <url>https://maven.pkg.github.com</url>
+        <url>https://maven.pkg.github.com/maradamark99/spring-blob-storage-autoconfig</url>
       </repository>
     </distributionManagement>
     <dependencies>
