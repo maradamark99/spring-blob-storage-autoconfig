@@ -1,12 +1,16 @@
 package com.maradamark99.blobstorage.minio;
 
 import io.minio.MinioClient;
+
+import org.springframework.boot.autoconfigure.AutoConfiguration;
+import org.springframework.boot.autoconfigure.AutoConfigureAfter;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnClass;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean;
+import org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration;
 import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.Configuration;
 
-@Configuration
+@AutoConfiguration
+@AutoConfigureAfter(PropertyPlaceholderAutoConfiguration.class)
 public class MinioClientAutoConfiguration {
 
     @Bean
